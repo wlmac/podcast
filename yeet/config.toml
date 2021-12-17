@@ -1,4 +1,5 @@
-baseURL = 'https://podcast.maclyonsden.com'
+#baseURL = 'https://podcast.maclyonsden.com'
+baseURL = 'https://wlmac.github.io/podcast'
 languageCode = 'en-us'
 title = 'Metropolis Podcast'
 
