@@ -1,0 +1,3 @@
+[submodule "yeet/themes/xyi"]
+	path = yeet/themes/xyi
+	url = git@github.com:colourdelete/xyi.git

@@ -1,0 +1,5 @@
+baseURL = 'https://podcast.maclyonsden.com'
+languageCode = 'en-us'
+title = 'Metropolis Podcast'
+
+theme = 'xyi'
