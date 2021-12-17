@@ -1,0 +1,69 @@
+@use 'w3.css';
+
+:root {
+	--primary: #08d;
+	--secondary: #000;
+}
+
+nav {
+	& ul {
+		list-style: none;
+	}
+	aside & {
+		@extend .w3-bar-block;
+	}
+}
+
+.meta {
+	@extend .w3-padding;
+}
+
+.item {
+	@extend .w3-bar-item;
+	&.current {
+		font-weight: bold;
+	}
+}
+
+aside {
+	@extend .w3-quarter;
+	@extend .w3-card;
+	@extend .w3-round;
+}
+
+article#main {
+	@extend .w3-rest;
+	@extend .w3-padding;
+}
+
+.tag {
+	@extend .w3-tag;
+	@extend .w3-round;
+}
+
+.btn {
+	@extend .w3-button;
+	@extend .w3-round;
+}
+
+a {
+	color: var(--primary);
+	transition: 0.5s;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.note, .eg {
+	@extend .w3-card;
+	@extend .w3-round;
+	@extend .w3-padding;
+	@extend .w3-margin;
+	&.note {
+		@extend .w3-khaki;
+	}
+	&.eg {
+		@extend .w3-lime;
+	}
+}
